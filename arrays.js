@@ -10,7 +10,7 @@ chocolateBars.push("mars");
 
 function addElementToBeginningOfArray(array,element) {
   var newArray = array;
-  newArray.unshift(element);
+  array.unshift(element);
   [...array, element];
   return array;
 }
