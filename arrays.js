@@ -9,7 +9,6 @@ chocolateBars.push("mars");
 ['snickers', ...chocolateBars];
 
 function addElementToBeginningOfArray(array,element) {
-  var newArray = array;
   array.unshift(element);
   [...array, element];
   return array;
