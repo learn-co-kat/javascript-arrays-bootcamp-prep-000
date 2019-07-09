@@ -11,40 +11,40 @@ chocolateBars.push("mars");
 function addElementToBeginningOfArray(array,element) {
   [element, ...array];
   array = [element, ...array];
-  return array;
+  return array
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element);
-  return array;
+  return array
 }
 
 function addElementToEndOfArray(array,element){
   [element, ...array];
   array = [element, ...array];
-  return array;
+  return array
 }
 
 function destructivelyAddElementToEndOfArray(array, element){
   array.push(element);
-  return array;
+  return array
 }
 
 function accessElementInArray(array, index) {
-  return(array[2]);
+  return(array[2])
 }
 
 function destructivelyRemoveElementFromBeginningOfArray (array){
   array.shift();
-  return array;
+  return array
 }
 
 function removeElementFromBeginningOfArray(array){
-  array.slice(1);
+  array.slice(1)
 }
 
 function destructivelyRemoveElementFromEndOfArray(array){
-  array.pop();
+  array.pop()
 }
 
 function removeElementFromEndOfArray(array){
