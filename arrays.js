@@ -1,17 +1,17 @@
 var grilledCheeseIngredients = ['bread','mild cheese','sharp cheese','butter','tomato','garlic']
  
-var tomatoSauceIngredients = ['tomato','garlic','olive oil','basil','oregano']
+var tomatoSauceIngredients = ['tomato','garlic','olive oil','basil','oregano'];
 
-var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
+var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
 chocolateBars.push("mars");
 
-['snickers', ...chocolateBars] 
+['snickers', ...chocolateBars];
 
 function addElementToBeginningOfArray(array,element) {
   var newArray = array;
   newArray.unshift(element);
-  return newArray;
+  return array;
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
