@@ -1,4 +1,4 @@
-var grilledCheeseIngredients = ['bread','mild cheese','sharp cheese','butter','tomato','garlic']
+var grilledCheeseIngredients = ['bread','mild cheese','sharp cheese','butter','tomato','garlic'];
  
 var tomatoSauceIngredients = ['tomato','garlic','olive oil','basil','oregano'];
 
@@ -11,6 +11,7 @@ chocolateBars.push("mars");
 function addElementToBeginningOfArray(array,element) {
   var newArray = array;
   newArray.unshift(element);
+  [...array, element];
   return array;
 }
 
