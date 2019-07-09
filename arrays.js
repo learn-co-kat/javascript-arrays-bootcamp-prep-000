@@ -11,7 +11,7 @@ chocolateBars.push("mars");
 function addElementToBeginningOfArray(array,element) {
   var newArray = array;
   newArray.unshift(element);
-  return array;
+  return newArray;
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
@@ -50,10 +50,3 @@ function destructivelyRemoveElementFromEndOfArray(array){
 function removeElementFromEndOfArray(array){
   array.slice(0, array.length - 1);
 }
-
-
-
-
-
-
-
