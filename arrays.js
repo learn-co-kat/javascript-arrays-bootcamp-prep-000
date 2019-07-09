@@ -9,9 +9,8 @@ chocolateBars.push("mars");
 ['snickers', ...chocolateBars] 
 
 function addElementToBeginningOfArray(array,element) {
-  [...array, element];
-  array = [...array, element];
-  return (array);
+
+  return 
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
